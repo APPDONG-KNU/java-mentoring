@@ -2,7 +2,7 @@
 
 ## 구성원
 | [<img src="https://github.com/gidskql6671.png" width="100px">](https://github.com/gidskql6671) | [<img src="https://github.com/dosacha.png" width="100px">](https://github.com/dosacha) | [<img src="https://github.com/jisuSong0625.png" width="100px">](https://github.com/jisuSong0625) | [<img src="https://github.com/ysy3521.png" width="100px">](https://github.com/ysy3521) | [<img src="https://github.com/CHOHYEJUN.png" width="100px">](https://github.com/CHOHYEJUN) | [<img src="https://github.com/Mnemosyne1234.png" width="100px">](https://github.com/Mnemosyne1234) |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | [멘토 김동환](https://github.com/gidskql6671) | [김세한](https://github.com/dosacha) | [송지수](https://github.com/jisuSong0625) | [여승연](https://github.com/ysy3521) | [조혜준](https://github.com/CHOHYEJUN) | [최미소](https://github.com/Mnemosyne1234) |
 
 ## 멘토링 시간
