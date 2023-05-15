@@ -1,34 +1,59 @@
-import java.util.Scanner;
 
-class Sample {
-	public int nonStaticNum;
+interface Animal {
+	void eat();
+	void run();
+	void talk();
+}
 
-	public void changeStaticNum(int n) {
-		staticNum = n;
+class Person implements Animal {
+
+	@Override
+	public void eat() {
+		System.out.println("사람이 먹는다.");
 	}
 
-	public void printStaticNum() {
-		System.out.println("staticNum = " + staticNum);
+	@Override
+	public void run() {
+		System.out.println("사람이 달린다.");
+
 	}
 
-	public static int staticNum = 0;
+	@Override
+	public void talk() {
+		System.out.println("사람이 말한다.");
+
+	}
+}
+
+class Elephant implements Animal {
+
+	@Override
+	public void eat() {
+		System.out.println("코끼리가 먹는다.");
+
+	}
+
+	@Override
+	public void run() {
+		System.out.println("코끼리가 달린다.");
+
+	}
+
+	@Override
+	public void talk() {
+		System.out.println("코끼리가 말한다.");
+
+	}
 }
 
 public class Main {
 	public static void main(String[] args) {
-		Sample sample1 = new Sample();
-		Sample sample2 = new Sample();
-
-		sample1.nonStaticNum = 10;
-		sample2.nonStaticNum = 20;
-
-		System.out.println("sample1.nonStaticNum = " + sample1.nonStaticNum);
-		System.out.println("sample2.nonStaticNum = " + sample2.nonStaticNum);
-
-		sample1.changeStaticNum(10);
-
-		sample1.printStaticNum();
-		sample2.printStaticNum();
+		test(new Elephant());
 	}
 
+	static void test(Animal animal) {
+		animal.eat();
+		animal.run();
+		animal.talk();
+	}
 }
